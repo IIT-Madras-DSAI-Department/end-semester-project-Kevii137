@@ -442,7 +442,7 @@ class MyStackingClassifier:
         
         print("Generating OOF predictions")
         for j, base_model in enumerate(self.base_models):
-            print(f"Training base model {j+1}/{M}...")
+            print(f"Training base model {j+1}/{M}")
             
             # Create a fresh instance for each base model
             model_copy = base_model.__class__(**base_model.__dict__)
