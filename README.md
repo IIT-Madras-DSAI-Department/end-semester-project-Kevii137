@@ -1,9 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/R05VM8Rg)
-# IIT-Madras-DA2401-Machine-Learning-Lab-End-Semester-Project
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/1AFCzNkB)
+# IIT-Madras DA2401 Machine Learning Lab: Assignment-2
+
+# Classification
 
 ## 📌 Purpose of this Template
 
-This repository is the **starter** for your End Semester Project submission in GitHub Classroom. You can implement your solution and push your work in this repository. Please free to edit this README.md file as per your requirements.
+This repository is the **starter** for your Assignment-2 submission in GitHub Classroom. You can implement your solution and push your work in this repository. Please free to edit this README.md file as per your requirements.
 
 > **Scope (as per assignment brief):**
 > Give an introduction to your repository here: Eg. This repository contains a complete implementation for ...
@@ -18,13 +20,19 @@ This repository is the **starter** for your End Semester Project submission in G
 
 ## 📁 Repository Structure
 
-* Describe your repository structure here. Explain about overall code organization.
+Has 2 python files, 1 pdf, and 2 datasets:
+
+- Assignment02-XGBcode.py : Contains XGBoost classifier function implemented using the given starter code
+- XGB_comparison.py : Code for comparing the 3 models
+- ML_Assignment_2_Report.pdf : Assignment report
+- MNIST_train.csv
+- MNIST_validation.csv
 
 ---
 
 ## 📦 Installation & Dependencies
 
-* Mention all the related instructions for installation of related packages for running your code here.
+* Make sure the following libraries are installed in your environment: numpy, pandas, matplotlib, warnings, random, collections, sklearn.metrics, time.
 
 ---
 
@@ -34,7 +42,7 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ### A. Command-line (recommended for grading)
 
-* Mention the instructions to run you .py files.
+* Download all the required libraries into your environment before running the python files.
   
 ---
 
@@ -44,7 +52,7 @@ All experiments should be runnable from the command line **and** reproducible in
 
 ## 🧾 Authors
 
-**<Name, Roll No.>**, IIT Madras (2025–26)
+**Kevin Sona DA24B007**, IIT Madras (2025–26)
 
 
 ## Best Practices:
@@ -52,4 +60,5 @@ All experiments should be runnable from the command line **and** reproducible in
 * Please do not write all code on your local machine and push everything to GitHub on the last day. The commits in GitHub should reflect how the code has evolved during the course of the assignment.
 * Collaborations and discussions with other students is strictly prohibited.
 * Code should be modularized and well-commented.
+
 
