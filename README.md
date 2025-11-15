@@ -22,8 +22,8 @@ This repository is the **starter** for your Assignment-2 submission in GitHub Cl
 
 Has 2 python files, 1 pdf, and 2 datasets:
 
-- algorithms.py : Contains all algorithms and functions to be imported into main.py .
-- main.py : File that loads all datasets, trains on train set and predicts on the validation set. Object instance 'inference_model' is the final model. Use this model to predict on the test set.
+- algorithms.py : Contains all algorithms and functions that are imported into main.py .
+- main.py : File that loads all datasets, imports algorithms.py, trains on train set and predicts on the validation set. Object instance 'inference_model' is the final model. Use this model to predict on the test set.
 - endsemproject_report.pdf : Assignment report
 - MNIST_train.csv
 - MNIST_validation.csv
